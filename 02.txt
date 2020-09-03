@@ -1,8 +1,6 @@
 Группы проверок для веб
 	Функциональность — как элементы интерфейса выполняют свои функции.
-	Соответствие стандартам — общий стиль, принятые обозначения.
-	Usability или практичность — удобство использования.
-	
+		
 Эмуляторы браузеров
 	http://browsershots.org/
 	https://www.browserstack.com/		платный
@@ -27,9 +25,9 @@ petfriends1.herokuapp.com
 	
 Статусы-коды, с которыми могут приходить ответы сервера:
 	1xx: Informational (информационные):
-		100 Continue («продолжай»)[2][3];
-		101 Switching Protocols («переключение протоколов»)[2][3];
-		102 Processing («идёт обработка»);
+		100 Continue («продолжай»)[2][3]; что здесь написал я
+		101 Switching Protocols («переключение протоколов»)[2][3]; -------*?%:
+		102 Processing («идёт обработка»); добавил цифры 123456789
 		103 Early Hints («ранняя метаинформация»);
 	2xx: Success (успешно):
 		200 OK («хорошо»)[2][3];
@@ -48,9 +46,6 @@ petfriends1.herokuapp.com
 		302 Moved Temporarily («перемещено временно»)[2][7];
 		302 Found («найдено»)[7];
 		303 See Other («смотреть другое»)[2][7];
-		304 Not Modified («не изменялось»)[2][7];
-		305 Use Proxy («использовать прокси»)[2][7];
-		306 — зарезервировано (код использовался только в ранних спецификациях)[7];
 		307 Temporary Redirect («временное перенаправление»)[7];
 		308 Permanent Redirect («постоянное перенаправление»)[8].
 	4xx: Client Error (ошибка клиента):
@@ -92,17 +87,16 @@ petfriends1.herokuapp.com
 		502 Bad Gateway («плохой, ошибочный шлюз»)[2][3];
 		503 Service Unavailable («сервис недоступен»)[2][3];
 		504 Gateway Timeout («шлюз не отвечает»)[2][3];
-		505 HTTP Version Not Supported («версия HTTP не поддерживается»)[2][3];
-		506 Variant Also Negotiates («вариант тоже проводит согласование»)[13];
-		507 Insufficient Storage («переполнение хранилища»);
+		505 HTTP Version Not Supported («версия HTTP не поддерживается»)[2][3]; интересно
+		506 Variant Also Negotiates («вариант тоже проводит согласование»)[13]; derivativ
+		507 Insufficient Storage («переполнение хранилища»); fullstack
 		508 Loop Detected («обнаружено бесконечное перенаправление»)[14];
 		509 Bandwidth Limit Exceeded («исчерпана пропускная ширина канала»);
 		510 Not Extended («не расширено»);
 		511 Network Authentication Required («требуется сетевая аутентификация»)[11];
 		520 Unknown Error («неизвестная ошибка»)[15];
-		521 Web Server Is Down («веб-сервер не работает»)[15];
-		522 Connection Timed Out («соединение не отвечает»)[15];
-		523 Origin Is Unreachable («источник недоступен»)[15];
 		524 A Timeout Occurred («время ожидания истекло»)[15];
 		525 SSL Handshake Failed («квитирование SSL не удалось»)[15];
 		526 Invalid SSL Certificate («недействительный сертификат SSL»)[15].
+		527 Individual Error
+		528 Individual Error 528
